@@ -12,10 +12,8 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "baseUrl": ".",
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.jsx", "pages/about.jsx", "pages/_document.jsx"],
+  "exclude": ["node_modules"],
 }
