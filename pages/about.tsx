@@ -1,17 +1,16 @@
+import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Headline } from "../components/Headline";
 import { Main } from "../components/Main";
-import { Header } from "../components/Header";
 
 
 
-export default function Home() {
-  const page = "Index";
+export default function About() {
   return (
     <div>
       <Header />
-      <Headline page={ page} />
-      <Main page={ page} />
+      <Headline page="about"/>
+      <Main page="about" />
       <Footer/>
     </div>
 
